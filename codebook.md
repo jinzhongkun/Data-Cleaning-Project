@@ -23,7 +23,7 @@
     <meta name="viewport" content="width=1020">
     
     
-    <title>GettingAndCleaningData/README.md at master · benjamin-chan/GettingAndCleaningData</title>
+    <title>GettingAndCleaningData/codebook.md at master · benjamin-chan/GettingAndCleaningData</title>
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
     <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -43,7 +43,7 @@
       <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
     <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
     <link rel="assets" href="https://assets-cdn.github.com/">
-    <link rel="web-socket" href="wss://live.github.com/_sockets/MTY3MTM3MTM6YTRkN2M3YWQ5NWIyNDE4MDUwMmQ4YjllZDhiMTJhZDQ6M2Q3YjlhOWU2ZTEzODcyYTQ3NTVlN2ZmMGMyMTMyMWYzNmNiMzBiYjg1MjU4MTE0ODEwNGMxZDQ0NzdiNDIyMw==--d319e78391c8297c8bad597bc869de94e2fd6358">
+    <link rel="web-socket" href="wss://live.github.com/_sockets/MTY3MTM3MTM6YTRkN2M3YWQ5NWIyNDE4MDUwMmQ4YjllZDhiMTJhZDQ6ZTZkYjc3Y2JhYzliM2I1OGZkNzI4NGM3ZWYzMjFlYWNiZDgzMjQxZjcyOWY0YTY4OGIwZTM3ZDgyNDI2MGY3Yg==--a38ee11fc3be50d81042e6e53085f681d03c29d6">
     <meta name="pjax-timeout" content="1000">
     <link rel="sudo-modal" href="/sessions/sudo_modal">
 
@@ -55,7 +55,7 @@
 <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
     <meta name="google-analytics" content="UA-3769691-2">
 
-<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="18078121:53F8:13CA5D6C:5714550C" name="octolytics-dimension-request_id" /><meta content="16713713" name="octolytics-actor-id" /><meta content="jinzhongkun" name="octolytics-actor-login" /><meta content="b3346fe336ae95e5396bff936f82647013588c07a51bea4f13be39aba77abf4c" name="octolytics-actor-hash" />
+<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="18078121:53E5:8BC78A:571454F2" name="octolytics-dimension-request_id" /><meta content="16713713" name="octolytics-actor-id" /><meta content="jinzhongkun" name="octolytics-actor-login" /><meta content="b3346fe336ae95e5396bff936f82647013588c07a51bea4f13be39aba77abf4c" name="octolytics-actor-hash" />
 <meta content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" name="analytics-location" />
 
 
@@ -68,7 +68,7 @@
     <meta name="user-login" content="jinzhongkun">
 
         <meta name="expected-hostname" content="github.com">
-      <meta name="js-proxy-site-detection-payload" content="Y2MzNjdiNDE2M2ZmM2YxY2I3NDIwMWRhNDk2NGI0ZWFhMDRjNGZkNDRiM2Q1NDI3NWM4YTM1MmM3MzUyYzllN3x7InJlbW90ZV9hZGRyZXNzIjoiMjQuNy4xMjkuMzMiLCJyZXF1ZXN0X2lkIjoiMTgwNzgxMjE6NTNGODoxM0NBNUQ2Qzo1NzE0NTUwQyIsInRpbWVzdGFtcCI6MTQ2MDk1MDI5Mn0=">
+      <meta name="js-proxy-site-detection-payload" content="Mzg4NTkwODFjNjAwNjdkM2JmYzQ1NGEwZDI1MzhmMDJkZTUwMDg5MzJiYjU5YTEzYjEwYWIxZjY4ODY1YjkxNHx7InJlbW90ZV9hZGRyZXNzIjoiMjQuNy4xMjkuMzMiLCJyZXF1ZXN0X2lkIjoiMTgwNzgxMjE6NTNFNTo4QkM3OEE6NTcxNDU0RjIiLCJ0aW1lc3RhbXAiOjE0NjA5NTAyNjV9">
 
 
       <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#4078c0">
@@ -87,7 +87,7 @@
   <link href="https://github.com/benjamin-chan/GettingAndCleaningData/commits/master.atom" rel="alternate" title="Recent Commits to GettingAndCleaningData:master" type="application/atom+xml">
 
 
-      <link rel="canonical" href="https://github.com/benjamin-chan/GettingAndCleaningData/blob/master/Project/README.md" data-pjax-transient>
+      <link rel="canonical" href="https://github.com/benjamin-chan/GettingAndCleaningData/blob/master/Project/codebook.md" data-pjax-transient>
   </head>
 
 
@@ -223,7 +223,7 @@
             Settings
           </a>
 
-          <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/logout" class="logout-form" data-form-nonce="6732bd5a2fc4810da67b9df2ff5b908110940fb4" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="o1Ad/0mdfqbsIjAB8yRE2yjKKz1zSmFgmhDicMcP75xRfRORQUX5OSHY0odTj8XT0ofC1HynDc9kOalUsCcxUg==" /></div>
+          <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/logout" class="logout-form" data-form-nonce="6732bd5a2fc4810da67b9df2ff5b908110940fb4" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="ufidMJWXS3TVpXyTC1XPDofuKtN9cqLHeg6s/hCvtULftu/x3peWhDpXJS+ZCzFVsrKsZN2dG0LvHUh4aAjmEA==" /></div>
             <button class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
               Sign out
             </button>
@@ -260,7 +260,7 @@
 <ul class="pagehead-actions">
 
   <li>
-        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-form-nonce="6732bd5a2fc4810da67b9df2ff5b908110940fb4" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="D+Efyz9Iajtgxr7nRcmoDG1sY/Zo2BVXNtLv/FWglVFAjSvlC3DZQ5MENPqs9ZQYFrXmeiG3WlbltukR5ySrZQ==" /></div>      <input class="form-control" id="repository_id" name="repository_id" type="hidden" value="18577753" />
+        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-form-nonce="6732bd5a2fc4810da67b9df2ff5b908110940fb4" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="eFIM4vFeN3mA722bO7orGX/nwIsRwgWazqM6p9DxHfPlnCMVBqNewVx4E3Y+HnLYqA5E9/TaAt1pFD0T4iYyGA==" /></div>      <input class="form-control" id="repository_id" name="repository_id" type="hidden" value="18577753" />
 
         <div class="select-menu js-menu-container js-select-menu">
           <a href="/benjamin-chan/GettingAndCleaningData/subscription"
@@ -335,7 +335,7 @@
     
   <div class="js-toggler-container js-social-container starring-container ">
 
-    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/benjamin-chan/GettingAndCleaningData/unstar" class="js-toggler-form starred" data-form-nonce="6732bd5a2fc4810da67b9df2ff5b908110940fb4" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="PJNWKCKgJzHNi4ZKPIfgcN24XdbtuhnMIegpGWpnr3gs28p1mfjG+17J25xrdrz08FfQitEwuzjtM2UamnX29g==" /></div>
+    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/benjamin-chan/GettingAndCleaningData/unstar" class="js-toggler-form starred" data-form-nonce="6732bd5a2fc4810da67b9df2ff5b908110940fb4" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="3HqQ0x7cP2HcLnVrbGhx4wAmrZ2nlhOm6zQPRgEViyPxtdPv9icSYf8V24Ldd5luuTZhUAsrwRFe5E5tYq+YCA==" /></div>
       <button
         class="btn btn-sm btn-with-count js-toggler-target"
         aria-label="Unstar this repository" title="Unstar benjamin-chan/GettingAndCleaningData"
@@ -347,7 +347,7 @@
           45
         </a>
 </form>
-    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/benjamin-chan/GettingAndCleaningData/star" class="js-toggler-form unstarred" data-form-nonce="6732bd5a2fc4810da67b9df2ff5b908110940fb4" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="QCfsII2JaTo5V+QnWK6zg2d5zqMVlcLMC8fLxdd49QVYA8IathXqK/qsXFncMnhoB5Wen+p+EPYwEH0VDch9Pg==" /></div>
+    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/benjamin-chan/GettingAndCleaningData/star" class="js-toggler-form unstarred" data-form-nonce="6732bd5a2fc4810da67b9df2ff5b908110940fb4" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="KDU0vKovayylmEKKe2PI3FLEn2IsHTRzrHDQARnzcrX6cFvG0Tjt4pBBDLu/oWO3sTG2c6kHNFLiG0oX7gLsWA==" /></div>
       <button
         class="btn btn-sm btn-with-count js-toggler-target"
         aria-label="Star this repository" title="Star benjamin-chan/GettingAndCleaningData"
@@ -363,7 +363,7 @@
   </li>
 
   <li>
-          <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/benjamin-chan/GettingAndCleaningData/fork" class="btn-with-count" data-form-nonce="6732bd5a2fc4810da67b9df2ff5b908110940fb4" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="WJFNhgWrlG5EGgXvHvus3WfwOytus48kM98HH/Xz2GOXwWm0Qg1rQrVLcaDfMLbZhC2a1jngi34ZZAUt361bEw==" /></div>
+          <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/benjamin-chan/GettingAndCleaningData/fork" class="btn-with-count" data-form-nonce="6732bd5a2fc4810da67b9df2ff5b908110940fb4" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="riP0YfBCFuP4MdF+rT+nlhZr9vkYpy5RilM5Z5RlY4EhW0zUMIWOOOOJHMux7Hb/nOEVtWTEC7+Eca/CQz0r1Q==" /></div>
             <button
                 type="submit"
                 class="btn btn-sm btn-with-count"
@@ -443,9 +443,9 @@
 
     
 
-<a href="/benjamin-chan/GettingAndCleaningData/blob/eb401a34579a545bc64fedd8d410bdf8ecb6f992/Project/README.md" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
+<a href="/benjamin-chan/GettingAndCleaningData/blob/eb401a34579a545bc64fedd8d410bdf8ecb6f992/Project/codebook.md" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
 
-<!-- blob contrib key: blob_contributors:v21:ad5585b1417812b1df4b57b5e5c99c53 -->
+<!-- blob contrib key: blob_contributors:v21:b0dec454a4a5de252b27670353370434 -->
 
 <div class="file-navigation js-zeroclipboard-container">
   
@@ -487,7 +487,7 @@
 
 
             <a class="select-menu-item js-navigation-item js-navigation-open selected"
-               href="/benjamin-chan/GettingAndCleaningData/blob/master/Project/README.md"
+               href="/benjamin-chan/GettingAndCleaningData/blob/master/Project/codebook.md"
                data-name="master"
                data-skip-pjax="true"
                rel="nofollow">
@@ -524,22 +524,22 @@
     <button aria-label="Copy file path to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button">Copy path</button>
   </div>
   <div class="breadcrumb js-zeroclipboard-target">
-    <span class="repo-root js-repo-root"><span class="js-path-segment"><a href="/benjamin-chan/GettingAndCleaningData"><span>GettingAndCleaningData</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a href="/benjamin-chan/GettingAndCleaningData/tree/master/Project"><span>Project</span></a></span><span class="separator">/</span><strong class="final-path">README.md</strong>
+    <span class="repo-root js-repo-root"><span class="js-path-segment"><a href="/benjamin-chan/GettingAndCleaningData"><span>GettingAndCleaningData</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a href="/benjamin-chan/GettingAndCleaningData/tree/master/Project"><span>Project</span></a></span><span class="separator">/</span><strong class="final-path">codebook.md</strong>
   </div>
 </div>
 
 
   <div class="commit-tease">
       <span class="right">
-        <a class="commit-tease-sha" href="/benjamin-chan/GettingAndCleaningData/commit/d761a6dccd9fe4b4b888d7213d9295b36b69bbf4" data-pjax>
-          d761a6d
+        <a class="commit-tease-sha" href="/benjamin-chan/GettingAndCleaningData/commit/73f0abb7e5bd770a824ee189e21830c7485c5f1a" data-pjax>
+          73f0abb
         </a>
-        <relative-time datetime="2014-04-17T11:39:53Z">Apr 17, 2014</relative-time>
+        <time datetime="2014-04-17T16:10:14Z" is="relative-time">Apr 17, 2014</time>
       </span>
       <div>
         <img alt="@benjamin-chan" class="avatar" height="20" src="https://avatars1.githubusercontent.com/u/1897044?v=3&amp;s=40" width="20" />
         <a href="/benjamin-chan" class="user-mention" rel="author">benjamin-chan</a>
-          <a href="/benjamin-chan/GettingAndCleaningData/commit/d761a6dccd9fe4b4b888d7213d9295b36b69bbf4" class="message" data-pjax="true" title="Automate codebook creation">Automate codebook creation</a>
+          <a href="/benjamin-chan/GettingAndCleaningData/commit/73f0abb7e5bd770a824ee189e21830c7485c5f1a" class="message" data-pjax="true" title="Add codebook.html">Add codebook.html</a>
       </div>
 
     <div class="commit-tease-contributors">
@@ -566,9 +566,9 @@
   <div class="file-actions">
 
     <div class="btn-group">
-      <a href="/benjamin-chan/GettingAndCleaningData/raw/master/Project/README.md" class="btn btn-sm " id="raw-url">Raw</a>
-        <a href="/benjamin-chan/GettingAndCleaningData/blame/master/Project/README.md" class="btn btn-sm js-update-url-with-hash">Blame</a>
-      <a href="/benjamin-chan/GettingAndCleaningData/commits/master/Project/README.md" class="btn btn-sm " rel="nofollow">History</a>
+      <a href="/benjamin-chan/GettingAndCleaningData/raw/master/Project/codebook.md" class="btn btn-sm " id="raw-url">Raw</a>
+        <a href="/benjamin-chan/GettingAndCleaningData/blame/master/Project/codebook.md" class="btn btn-sm js-update-url-with-hash">Blame</a>
+      <a href="/benjamin-chan/GettingAndCleaningData/commits/master/Project/codebook.md" class="btn btn-sm " rel="nofollow">History</a>
     </div>
 
         <a class="btn-octicon tooltipped tooltipped-nw"
@@ -578,12 +578,12 @@
             <svg aria-hidden="true" class="octicon octicon-device-desktop" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M15 2H1c-0.55 0-1 0.45-1 1v9c0 0.55 0.45 1 1 1h5.34c-0.25 0.61-0.86 1.39-2.34 2h8c-1.48-0.61-2.09-1.39-2.34-2h5.34c0.55 0 1-0.45 1-1V3c0-0.55-0.45-1-1-1z m0 9H1V3h14v8z"></path></svg>
         </a>
 
-        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/benjamin-chan/GettingAndCleaningData/edit/master/Project/README.md" class="inline-form js-update-url-with-hash" data-form-nonce="6732bd5a2fc4810da67b9df2ff5b908110940fb4" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="QZPPyEiGliTuo1sZob3fUtKlKpg8xwK0bf8UKqdm+XeS0Q4mUAaOkazZ0xuc9uEFUrsJi5fCot6je+pLxQeRmQ==" /></div>
+        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/benjamin-chan/GettingAndCleaningData/edit/master/Project/codebook.md" class="inline-form js-update-url-with-hash" data-form-nonce="6732bd5a2fc4810da67b9df2ff5b908110940fb4" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="wP0lUl9DMLx2sfa37Y4gSCjL96p/3zEVyfRuM3ntoMV0XbUtlDEp5YHdbGe1tp5cmGkEHQktuI8T1G1VNI8NNw==" /></div>
           <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
             aria-label="Fork this project and edit the file" data-hotkey="e" data-disable-with>
             <svg aria-hidden="true" class="octicon octicon-pencil" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path d="M0 12v3h3l8-8-3-3L0 12z m3 2H1V12h1v1h1v1z m10.3-9.3l-1.3 1.3-3-3 1.3-1.3c0.39-0.39 1.02-0.39 1.41 0l1.59 1.59c0.39 0.39 0.39 1.02 0 1.41z"></path></svg>
           </button>
-</form>        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/benjamin-chan/GettingAndCleaningData/delete/master/Project/README.md" class="inline-form" data-form-nonce="6732bd5a2fc4810da67b9df2ff5b908110940fb4" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="hyWS/ItGiHBC9sYIt7fCV9PIMpbdOPCI8Wnq7i2defgi9/+pN7JmbCfgq0ne2WgMpTflhgOC4fQaoOSqw/aKIw==" /></div>
+</form>        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/benjamin-chan/GettingAndCleaningData/delete/master/Project/codebook.md" class="inline-form" data-form-nonce="6732bd5a2fc4810da67b9df2ff5b908110940fb4" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="ZVzwg0I+k/M2Th3MOJw8AiWdjmxumNjqB2lhs89awTa7zdNwPBCmDoiZnajYlhcgbPa7ocm5Nwt4w7VQVU8K1A==" /></div>
           <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
             aria-label="Fork this project and delete the file" data-disable-with>
             <svg aria-hidden="true" class="octicon octicon-trashcan" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M10 2H8c0-0.55-0.45-1-1-1H4c-0.55 0-1 0.45-1 1H1c-0.55 0-1 0.45-1 1v1c0 0.55 0.45 1 1 1v9c0 0.55 0.45 1 1 1h7c0.55 0 1-0.45 1-1V5c0.55 0 1-0.45 1-1v-1c0-0.55-0.45-1-1-1z m-1 12H2V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9z m1-10H1v-1h9v1z"></path></svg>
@@ -591,58 +591,306 @@
 </form>  </div>
 
   <div class="file-info">
-      42 lines (33 sloc)
+      291 lines (258 sloc)
       <span class="file-info-divider"></span>
-    2.63 KB
+    13.2 KB
   </div>
 </div>
 
   
   <div id="readme" class="readme blob instapaper_body">
-    <article class="markdown-body entry-content" itemprop="text"><h1><a id="user-content-project-for-getting-and-cleaning-data" class="anchor" href="#project-for-getting-and-cleaning-data" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1h-1c-1.5 0-3-1.69-3-3.5s1.55-3.5 3-3.5h4c1.45 0 3 1.69 3 3.5 0 1.41-0.91 2.72-2 3.25v-1.16c0.58-0.45 1-1.27 1-2.09 0-1.28-1.02-2.5-2-2.5H4c-0.98 0-2 1.22-2 2.5s1 2.5 2 2.5z m9-3h-1v1h1c1 0 2 1.22 2 2.5s-1.02 2.5-2 2.5H9c-0.98 0-2-1.22-2-2.5 0-0.83 0.42-1.64 1-2.09v-1.16c-1.09 0.53-2 1.84-2 3.25 0 1.81 1.55 3.5 3 3.5h4c1.45 0 3-1.69 3-3.5s-1.5-3.5-3-3.5z"></path></svg></a>Project for Getting and Cleaning Data</h1>
+    <article class="markdown-body entry-content" itemprop="text"><h1><a id="user-content-codebook" class="anchor" href="#codebook" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1h-1c-1.5 0-3-1.69-3-3.5s1.55-3.5 3-3.5h4c1.45 0 3 1.69 3 3.5 0 1.41-0.91 2.72-2 3.25v-1.16c0.58-0.45 1-1.27 1-2.09 0-1.28-1.02-2.5-2-2.5H4c-0.98 0-2 1.22-2 2.5s1 2.5 2 2.5z m9-3h-1v1h1c1 0 2 1.22 2 2.5s-1.02 2.5-2 2.5H9c-0.98 0-2-1.22-2-2.5 0-0.83 0.42-1.64 1-2.09v-1.16c-1.09 0.53-2 1.84-2 3.25 0 1.81 1.55 3.5 3 3.5h4c1.45 0 3-1.69 3-3.5s-1.5-3.5-3-3.5z"></path></svg></a>Codebook</h1>
 
-<p>Author: Benjamin Chan (<a href="https://github.com/benjamin-chan/GettingAndCleaningData">https://github.com/benjamin-chan/GettingAndCleaningData</a>)</p>
+<p>Codebook was generated on 2014-04-17 09:04:47 during the same process that generated the dataset. See <code>run_analysis.md</code> or <code>run_analysis.html</code> for details on dataset creation.</p>
 
-<h2><a id="user-content-parameters-for-the-project" class="anchor" href="#parameters-for-the-project" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1h-1c-1.5 0-3-1.69-3-3.5s1.55-3.5 3-3.5h4c1.45 0 3 1.69 3 3.5 0 1.41-0.91 2.72-2 3.25v-1.16c0.58-0.45 1-1.27 1-2.09 0-1.28-1.02-2.5-2-2.5H4c-0.98 0-2 1.22-2 2.5s1 2.5 2 2.5z m9-3h-1v1h1c1 0 2 1.22 2 2.5s-1.02 2.5-2 2.5H9c-0.98 0-2-1.22-2-2.5 0-0.83 0.42-1.64 1-2.09v-1.16c-1.09 0.53-2 1.84-2 3.25 0 1.81 1.55 3.5 3 3.5h4c1.45 0 3-1.69 3-3.5s-1.5-3.5-3-3.5z"></path></svg></a>Parameters for the project</h2>
+<h2><a id="user-content-variable-list-and-descriptions" class="anchor" href="#variable-list-and-descriptions" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1h-1c-1.5 0-3-1.69-3-3.5s1.55-3.5 3-3.5h4c1.45 0 3 1.69 3 3.5 0 1.41-0.91 2.72-2 3.25v-1.16c0.58-0.45 1-1.27 1-2.09 0-1.28-1.02-2.5-2-2.5H4c-0.98 0-2 1.22-2 2.5s1 2.5 2 2.5z m9-3h-1v1h1c1 0 2 1.22 2 2.5s-1.02 2.5-2 2.5H9c-0.98 0-2-1.22-2-2.5 0-0.83 0.42-1.64 1-2.09v-1.16c-1.09 0.53-2 1.84-2 3.25 0 1.81 1.55 3.5 3 3.5h4c1.45 0 3-1.69 3-3.5s-1.5-3.5-3-3.5z"></path></svg></a>Variable list and descriptions</h2>
 
-<blockquote>
-<p>The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis. You will be graded by your peers on a series of yes/no questions related to the project. You will be required to submit: 1) a tidy data set as described below, 2) a link to a Github repository with your script for performing the analysis, and 3) a code book that describes the variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md. You should also include a README.md in the repo with your scripts. This repo explains how all of the scripts work and how they are connected.  </p>
+<table><thead>
+<tr>
+<th>Variable name</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>subject</td>
+<td>ID the subject who performed the activity for each window sample. Its range is from 1 to 30.</td>
+</tr>
+<tr>
+<td>activity</td>
+<td>Activity name</td>
+</tr>
+<tr>
+<td>featDomain</td>
+<td>Feature: Time domain signal or frequency domain signal (Time or Freq)</td>
+</tr>
+<tr>
+<td>featInstrument</td>
+<td>Feature: Measuring instrument (Accelerometer or Gyroscope)</td>
+</tr>
+<tr>
+<td>featAcceleration</td>
+<td>Feature: Acceleration signal (Body or Gravity)</td>
+</tr>
+<tr>
+<td>featVariable</td>
+<td>Feature: Variable (Mean or SD)</td>
+</tr>
+<tr>
+<td>featJerk</td>
+<td>Feature: Jerk signal</td>
+</tr>
+<tr>
+<td>featMagnitude</td>
+<td>Feature: Magnitude of the signals calculated using the Euclidean norm</td>
+</tr>
+<tr>
+<td>featAxis</td>
+<td>Feature: 3-axial signals in the X, Y and Z directions (X, Y, or Z)</td>
+</tr>
+<tr>
+<td>featCount</td>
+<td>Feature: Count of data points used to compute <code>average</code></td>
+</tr>
+<tr>
+<td>featAverage</td>
+<td>Feature: Average of each variable for each activity and each subject</td>
+</tr>
+</tbody></table>
 
-<p>One of the most exciting areas in all of data science right now is wearable computing - see for example this article . Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users. The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained: </p>
+<h2><a id="user-content-dataset-structure" class="anchor" href="#dataset-structure" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1h-1c-1.5 0-3-1.69-3-3.5s1.55-3.5 3-3.5h4c1.45 0 3 1.69 3 3.5 0 1.41-0.91 2.72-2 3.25v-1.16c0.58-0.45 1-1.27 1-2.09 0-1.28-1.02-2.5-2-2.5H4c-0.98 0-2 1.22-2 2.5s1 2.5 2 2.5z m9-3h-1v1h1c1 0 2 1.22 2 2.5s-1.02 2.5-2 2.5H9c-0.98 0-2-1.22-2-2.5 0-0.83 0.42-1.64 1-2.09v-1.16c-1.09 0.53-2 1.84-2 3.25 0 1.81 1.55 3.5 3 3.5h4c1.45 0 3-1.69 3-3.5s-1.5-3.5-3-3.5z"></path></svg></a>Dataset structure</h2>
 
-<p><a href="http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones">http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones</a> </p>
+<div class="highlight highlight-source-r"><pre>str(<span class="pl-smi">dtTidy</span>)</pre></div>
 
-<p>Here are the data for the project: </p>
+<pre><code>## Classes 'data.table' and 'data.frame':   11880 obs. of  11 variables:
+##  $ subject         : int  1 1 1 1 1 1 1 1 1 1 ...
+##  $ activity        : Factor w/ 6 levels "LAYING","SITTING",..: 1 1 1 1 1 1 1 1 1 1 ...
+##  $ featDomain      : Factor w/ 2 levels "Time","Freq": 1 1 1 1 1 1 1 1 1 1 ...
+##  $ featAcceleration: Factor w/ 3 levels NA,"Body","Gravity": 1 1 1 1 1 1 1 1 1 1 ...
+##  $ featInstrument  : Factor w/ 2 levels "Accelerometer",..: 2 2 2 2 2 2 2 2 2 2 ...
+##  $ featJerk        : Factor w/ 2 levels NA,"Jerk": 1 1 1 1 1 1 1 1 2 2 ...
+##  $ featMagnitude   : Factor w/ 2 levels NA,"Magnitude": 1 1 1 1 1 1 2 2 1 1 ...
+##  $ featVariable    : Factor w/ 2 levels "Mean","SD": 1 1 1 2 2 2 1 2 1 1 ...
+##  $ featAxis        : Factor w/ 4 levels NA,"X","Y","Z": 2 3 4 2 3 4 1 1 2 3 ...
+##  $ count           : int  50 50 50 50 50 50 50 50 50 50 ...
+##  $ average         : num  -0.0166 -0.0645 0.1487 -0.8735 -0.9511 ...
+##  - attr(*, "sorted")= chr  "subject" "activity" "featDomain" "featAcceleration" ...
+##  - attr(*, ".internal.selfref")=&lt;externalptr&gt;
+</code></pre>
 
-<p><a href="https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip">https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip</a> </p>
+<h2><a id="user-content-list-the-key-variables-in-the-data-table" class="anchor" href="#list-the-key-variables-in-the-data-table" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1h-1c-1.5 0-3-1.69-3-3.5s1.55-3.5 3-3.5h4c1.45 0 3 1.69 3 3.5 0 1.41-0.91 2.72-2 3.25v-1.16c0.58-0.45 1-1.27 1-2.09 0-1.28-1.02-2.5-2-2.5H4c-0.98 0-2 1.22-2 2.5s1 2.5 2 2.5z m9-3h-1v1h1c1 0 2 1.22 2 2.5s-1.02 2.5-2 2.5H9c-0.98 0-2-1.22-2-2.5 0-0.83 0.42-1.64 1-2.09v-1.16c-1.09 0.53-2 1.84-2 3.25 0 1.81 1.55 3.5 3 3.5h4c1.45 0 3-1.69 3-3.5s-1.5-3.5-3-3.5z"></path></svg></a>List the key variables in the data table</h2>
 
-<p>You should create one R script called run_analysis.R that does the following. </p>
+<div class="highlight highlight-source-r"><pre>key(<span class="pl-smi">dtTidy</span>)</pre></div>
 
-<ol>
-<li>Merges the training and the test sets to create one data set.</li>
-<li>Extracts only the measurements on the mean and standard deviation for each measurement.</li>
-<li>Uses descriptive activity names to name the activities in the data set.</li>
-<li>Appropriately labels the data set with descriptive activity names.</li>
-<li>Creates a second, independent tidy data set with the average of each variable for each activity and each subject. </li>
-</ol>
+<pre><code>## [1] "subject"          "activity"         "featDomain"      
+## [4] "featAcceleration" "featInstrument"   "featJerk"        
+## [7] "featMagnitude"    "featVariable"     "featAxis"
+</code></pre>
 
-<p>Good luck!</p>
-</blockquote>
+<h2><a id="user-content-show-a-few-rows-of-the-dataset" class="anchor" href="#show-a-few-rows-of-the-dataset" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1h-1c-1.5 0-3-1.69-3-3.5s1.55-3.5 3-3.5h4c1.45 0 3 1.69 3 3.5 0 1.41-0.91 2.72-2 3.25v-1.16c0.58-0.45 1-1.27 1-2.09 0-1.28-1.02-2.5-2-2.5H4c-0.98 0-2 1.22-2 2.5s1 2.5 2 2.5z m9-3h-1v1h1c1 0 2 1.22 2 2.5s-1.02 2.5-2 2.5H9c-0.98 0-2-1.22-2-2.5 0-0.83 0.42-1.64 1-2.09v-1.16c-1.09 0.53-2 1.84-2 3.25 0 1.81 1.55 3.5 3 3.5h4c1.45 0 3-1.69 3-3.5s-1.5-3.5-3-3.5z"></path></svg></a>Show a few rows of the dataset</h2>
 
-<h2><a id="user-content-steps-to-reproduce-this-project" class="anchor" href="#steps-to-reproduce-this-project" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1h-1c-1.5 0-3-1.69-3-3.5s1.55-3.5 3-3.5h4c1.45 0 3 1.69 3 3.5 0 1.41-0.91 2.72-2 3.25v-1.16c0.58-0.45 1-1.27 1-2.09 0-1.28-1.02-2.5-2-2.5H4c-0.98 0-2 1.22-2 2.5s1 2.5 2 2.5z m9-3h-1v1h1c1 0 2 1.22 2 2.5s-1.02 2.5-2 2.5H9c-0.98 0-2-1.22-2-2.5 0-0.83 0.42-1.64 1-2.09v-1.16c-1.09 0.53-2 1.84-2 3.25 0 1.81 1.55 3.5 3 3.5h4c1.45 0 3-1.69 3-3.5s-1.5-3.5-3-3.5z"></path></svg></a>Steps to reproduce this project</h2>
+<div class="highlight highlight-source-r"><pre><span class="pl-smi">dtTidy</span></pre></div>
 
-<ol>
-<li>Open the R script <code>run_analysis.r</code> using a text editor.</li>
-<li>Change the parameter of the <code>setwd</code> function call to the working directory/folder (i.e., the folder where these the R script file is saved).</li>
-<li>Run the R script <code>run_analysis.r</code>. It calls the R Markdown file, <code>run_analysis.Rmd</code>, which contains the bulk of the code.</li>
-</ol>
+<pre><code>##        subject         activity featDomain featAcceleration featInstrument
+##     1:       1           LAYING       Time               NA      Gyroscope
+##     2:       1           LAYING       Time               NA      Gyroscope
+##     3:       1           LAYING       Time               NA      Gyroscope
+##     4:       1           LAYING       Time               NA      Gyroscope
+##     5:       1           LAYING       Time               NA      Gyroscope
+##    ---                                                                    
+## 11876:      30 WALKING_UPSTAIRS       Freq             Body  Accelerometer
+## 11877:      30 WALKING_UPSTAIRS       Freq             Body  Accelerometer
+## 11878:      30 WALKING_UPSTAIRS       Freq             Body  Accelerometer
+## 11879:      30 WALKING_UPSTAIRS       Freq             Body  Accelerometer
+## 11880:      30 WALKING_UPSTAIRS       Freq             Body  Accelerometer
+##        featJerk featMagnitude featVariable featAxis count  average
+##     1:       NA            NA         Mean        X    50 -0.01655
+##     2:       NA            NA         Mean        Y    50 -0.06449
+##     3:       NA            NA         Mean        Z    50  0.14869
+##     4:       NA            NA           SD        X    50 -0.87354
+##     5:       NA            NA           SD        Y    50 -0.95109
+##    ---                                                            
+## 11876:     Jerk            NA           SD        X    65 -0.56157
+## 11877:     Jerk            NA           SD        Y    65 -0.61083
+## 11878:     Jerk            NA           SD        Z    65 -0.78475
+## 11879:     Jerk     Magnitude         Mean       NA    65 -0.54978
+## 11880:     Jerk     Magnitude           SD       NA    65 -0.58088
+</code></pre>
 
-<h2><a id="user-content-outputs-produced" class="anchor" href="#outputs-produced" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1h-1c-1.5 0-3-1.69-3-3.5s1.55-3.5 3-3.5h4c1.45 0 3 1.69 3 3.5 0 1.41-0.91 2.72-2 3.25v-1.16c0.58-0.45 1-1.27 1-2.09 0-1.28-1.02-2.5-2-2.5H4c-0.98 0-2 1.22-2 2.5s1 2.5 2 2.5z m9-3h-1v1h1c1 0 2 1.22 2 2.5s-1.02 2.5-2 2.5H9c-0.98 0-2-1.22-2-2.5 0-0.83 0.42-1.64 1-2.09v-1.16c-1.09 0.53-2 1.84-2 3.25 0 1.81 1.55 3.5 3 3.5h4c1.45 0 3-1.69 3-3.5s-1.5-3.5-3-3.5z"></path></svg></a>Outputs produced</h2>
+<h2><a id="user-content-summary-of-variables" class="anchor" href="#summary-of-variables" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1h-1c-1.5 0-3-1.69-3-3.5s1.55-3.5 3-3.5h4c1.45 0 3 1.69 3 3.5 0 1.41-0.91 2.72-2 3.25v-1.16c0.58-0.45 1-1.27 1-2.09 0-1.28-1.02-2.5-2-2.5H4c-0.98 0-2 1.22-2 2.5s1 2.5 2 2.5z m9-3h-1v1h1c1 0 2 1.22 2 2.5s-1.02 2.5-2 2.5H9c-0.98 0-2-1.22-2-2.5 0-0.83 0.42-1.64 1-2.09v-1.16c-1.09 0.53-2 1.84-2 3.25 0 1.81 1.55 3.5 3 3.5h4c1.45 0 3-1.69 3-3.5s-1.5-3.5-3-3.5z"></path></svg></a>Summary of variables</h2>
 
-<ul>
-<li>Tidy dataset file <code>DatasetHumanActivityRecognitionUsingSmartphones.txt</code> (tab-delimited text)</li>
-<li>Codebook file <code>codebook.md</code> (Markdown)</li>
-</ul>
+<div class="highlight highlight-source-r"><pre>summary(<span class="pl-smi">dtTidy</span>)</pre></div>
+
+<pre><code>##     subject                   activity    featDomain  featAcceleration
+##  Min.   : 1.0   LAYING            :1980   Time:7200   NA     :4680    
+##  1st Qu.: 8.0   SITTING           :1980   Freq:4680   Body   :5760    
+##  Median :15.5   STANDING          :1980               Gravity:1440    
+##  Mean   :15.5   WALKING           :1980                               
+##  3rd Qu.:23.0   WALKING_DOWNSTAIRS:1980                               
+##  Max.   :30.0   WALKING_UPSTAIRS  :1980                               
+##        featInstrument featJerk      featMagnitude  featVariable featAxis 
+##  Accelerometer:7200   NA  :7200   NA       :8640   Mean:5940    NA:3240  
+##  Gyroscope    :4680   Jerk:4680   Magnitude:3240   SD  :5940    X :2880  
+##                                                                 Y :2880  
+##                                                                 Z :2880  
+##                                                                          
+##                                                                          
+##      count         average       
+##  Min.   :36.0   Min.   :-0.9977  
+##  1st Qu.:49.0   1st Qu.:-0.9621  
+##  Median :54.5   Median :-0.4699  
+##  Mean   :57.2   Mean   :-0.4844  
+##  3rd Qu.:63.2   3rd Qu.:-0.0784  
+##  Max.   :95.0   Max.   : 0.9745
+</code></pre>
+
+<h2><a id="user-content-list-all-possible-combinations-of-features" class="anchor" href="#list-all-possible-combinations-of-features" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1h-1c-1.5 0-3-1.69-3-3.5s1.55-3.5 3-3.5h4c1.45 0 3 1.69 3 3.5 0 1.41-0.91 2.72-2 3.25v-1.16c0.58-0.45 1-1.27 1-2.09 0-1.28-1.02-2.5-2-2.5H4c-0.98 0-2 1.22-2 2.5s1 2.5 2 2.5z m9-3h-1v1h1c1 0 2 1.22 2 2.5s-1.02 2.5-2 2.5H9c-0.98 0-2-1.22-2-2.5 0-0.83 0.42-1.64 1-2.09v-1.16c-1.09 0.53-2 1.84-2 3.25 0 1.81 1.55 3.5 3 3.5h4c1.45 0 3-1.69 3-3.5s-1.5-3.5-3-3.5z"></path></svg></a>List all possible combinations of features</h2>
+
+<div class="highlight highlight-source-r"><pre><span class="pl-smi">dtTidy</span>[, .<span class="pl-smi">N</span>, <span class="pl-v">by</span> <span class="pl-k">=</span> c(names(<span class="pl-smi">dtTidy</span>)[grep(<span class="pl-s"><span class="pl-pds">"</span>^feat<span class="pl-pds">"</span></span>, names(<span class="pl-smi">dtTidy</span>))])]</pre></div>
+
+<pre><code>##     featDomain featAcceleration featInstrument featJerk featMagnitude
+##  1:       Time               NA      Gyroscope       NA            NA
+##  2:       Time               NA      Gyroscope       NA            NA
+##  3:       Time               NA      Gyroscope       NA            NA
+##  4:       Time               NA      Gyroscope       NA            NA
+##  5:       Time               NA      Gyroscope       NA            NA
+##  6:       Time               NA      Gyroscope       NA            NA
+##  7:       Time               NA      Gyroscope       NA     Magnitude
+##  8:       Time               NA      Gyroscope       NA     Magnitude
+##  9:       Time               NA      Gyroscope     Jerk            NA
+## 10:       Time               NA      Gyroscope     Jerk            NA
+## 11:       Time               NA      Gyroscope     Jerk            NA
+## 12:       Time               NA      Gyroscope     Jerk            NA
+## 13:       Time               NA      Gyroscope     Jerk            NA
+## 14:       Time               NA      Gyroscope     Jerk            NA
+## 15:       Time               NA      Gyroscope     Jerk     Magnitude
+## 16:       Time               NA      Gyroscope     Jerk     Magnitude
+## 17:       Time             Body  Accelerometer       NA            NA
+## 18:       Time             Body  Accelerometer       NA            NA
+## 19:       Time             Body  Accelerometer       NA            NA
+## 20:       Time             Body  Accelerometer       NA            NA
+## 21:       Time             Body  Accelerometer       NA            NA
+## 22:       Time             Body  Accelerometer       NA            NA
+## 23:       Time             Body  Accelerometer       NA     Magnitude
+## 24:       Time             Body  Accelerometer       NA     Magnitude
+## 25:       Time             Body  Accelerometer     Jerk            NA
+## 26:       Time             Body  Accelerometer     Jerk            NA
+## 27:       Time             Body  Accelerometer     Jerk            NA
+## 28:       Time             Body  Accelerometer     Jerk            NA
+## 29:       Time             Body  Accelerometer     Jerk            NA
+## 30:       Time             Body  Accelerometer     Jerk            NA
+## 31:       Time             Body  Accelerometer     Jerk     Magnitude
+## 32:       Time             Body  Accelerometer     Jerk     Magnitude
+## 33:       Time          Gravity  Accelerometer       NA            NA
+## 34:       Time          Gravity  Accelerometer       NA            NA
+## 35:       Time          Gravity  Accelerometer       NA            NA
+## 36:       Time          Gravity  Accelerometer       NA            NA
+## 37:       Time          Gravity  Accelerometer       NA            NA
+## 38:       Time          Gravity  Accelerometer       NA            NA
+## 39:       Time          Gravity  Accelerometer       NA     Magnitude
+## 40:       Time          Gravity  Accelerometer       NA     Magnitude
+## 41:       Freq               NA      Gyroscope       NA            NA
+## 42:       Freq               NA      Gyroscope       NA            NA
+## 43:       Freq               NA      Gyroscope       NA            NA
+## 44:       Freq               NA      Gyroscope       NA            NA
+## 45:       Freq               NA      Gyroscope       NA            NA
+## 46:       Freq               NA      Gyroscope       NA            NA
+## 47:       Freq               NA      Gyroscope       NA     Magnitude
+## 48:       Freq               NA      Gyroscope       NA     Magnitude
+## 49:       Freq               NA      Gyroscope     Jerk     Magnitude
+## 50:       Freq               NA      Gyroscope     Jerk     Magnitude
+## 51:       Freq             Body  Accelerometer       NA            NA
+## 52:       Freq             Body  Accelerometer       NA            NA
+## 53:       Freq             Body  Accelerometer       NA            NA
+## 54:       Freq             Body  Accelerometer       NA            NA
+## 55:       Freq             Body  Accelerometer       NA            NA
+## 56:       Freq             Body  Accelerometer       NA            NA
+## 57:       Freq             Body  Accelerometer       NA     Magnitude
+## 58:       Freq             Body  Accelerometer       NA     Magnitude
+## 59:       Freq             Body  Accelerometer     Jerk            NA
+## 60:       Freq             Body  Accelerometer     Jerk            NA
+## 61:       Freq             Body  Accelerometer     Jerk            NA
+## 62:       Freq             Body  Accelerometer     Jerk            NA
+## 63:       Freq             Body  Accelerometer     Jerk            NA
+## 64:       Freq             Body  Accelerometer     Jerk            NA
+## 65:       Freq             Body  Accelerometer     Jerk     Magnitude
+## 66:       Freq             Body  Accelerometer     Jerk     Magnitude
+##     featDomain featAcceleration featInstrument featJerk featMagnitude
+##     featVariable featAxis   N
+##  1:         Mean        X 180
+##  2:         Mean        Y 180
+##  3:         Mean        Z 180
+##  4:           SD        X 180
+##  5:           SD        Y 180
+##  6:           SD        Z 180
+##  7:         Mean       NA 180
+##  8:           SD       NA 180
+##  9:         Mean        X 180
+## 10:         Mean        Y 180
+## 11:         Mean        Z 180
+## 12:           SD        X 180
+## 13:           SD        Y 180
+## 14:           SD        Z 180
+## 15:         Mean       NA 180
+## 16:           SD       NA 180
+## 17:         Mean        X 180
+## 18:         Mean        Y 180
+## 19:         Mean        Z 180
+## 20:           SD        X 180
+## 21:           SD        Y 180
+## 22:           SD        Z 180
+## 23:         Mean       NA 180
+## 24:           SD       NA 180
+## 25:         Mean        X 180
+## 26:         Mean        Y 180
+## 27:         Mean        Z 180
+## 28:           SD        X 180
+## 29:           SD        Y 180
+## 30:           SD        Z 180
+## 31:         Mean       NA 180
+## 32:           SD       NA 180
+## 33:         Mean        X 180
+## 34:         Mean        Y 180
+## 35:         Mean        Z 180
+## 36:           SD        X 180
+## 37:           SD        Y 180
+## 38:           SD        Z 180
+## 39:         Mean       NA 180
+## 40:           SD       NA 180
+## 41:         Mean        X 180
+## 42:         Mean        Y 180
+## 43:         Mean        Z 180
+## 44:           SD        X 180
+## 45:           SD        Y 180
+## 46:           SD        Z 180
+## 47:         Mean       NA 180
+## 48:           SD       NA 180
+## 49:         Mean       NA 180
+## 50:           SD       NA 180
+## 51:         Mean        X 180
+## 52:         Mean        Y 180
+## 53:         Mean        Z 180
+## 54:           SD        X 180
+## 55:           SD        Y 180
+## 56:           SD        Z 180
+## 57:         Mean       NA 180
+## 58:           SD       NA 180
+## 59:         Mean        X 180
+## 60:         Mean        Y 180
+## 61:         Mean        Z 180
+## 62:           SD        X 180
+## 63:           SD        Y 180
+## 64:           SD        Z 180
+## 65:         Mean       NA 180
+## 66:           SD       NA 180
+##     featVariable featAxis   N
+</code></pre>
+
+<h2><a id="user-content-save-to-file" class="anchor" href="#save-to-file" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1h-1c-1.5 0-3-1.69-3-3.5s1.55-3.5 3-3.5h4c1.45 0 3 1.69 3 3.5 0 1.41-0.91 2.72-2 3.25v-1.16c0.58-0.45 1-1.27 1-2.09 0-1.28-1.02-2.5-2-2.5H4c-0.98 0-2 1.22-2 2.5s1 2.5 2 2.5z m9-3h-1v1h1c1 0 2 1.22 2 2.5s-1.02 2.5-2 2.5H9c-0.98 0-2-1.22-2-2.5 0-0.83 0.42-1.64 1-2.09v-1.16c-1.09 0.53-2 1.84-2 3.25 0 1.81 1.55 3.5 3 3.5h4c1.45 0 3-1.69 3-3.5s-1.5-3.5-3-3.5z"></path></svg></a>Save to file</h2>
+
+<p>Save data table objects to a tab-delimited text file called <code>DatasetHumanActivityRecognitionUsingSmartphones.txt</code>.</p>
+
+<div class="highlight highlight-source-r"><pre><span class="pl-smi">f</span> <span class="pl-k">&lt;-</span> file.path(<span class="pl-smi">path</span>, <span class="pl-s"><span class="pl-pds">"</span>DatasetHumanActivityRecognitionUsingSmartphones.txt<span class="pl-pds">"</span></span>)
+write.table(<span class="pl-smi">dtTidy</span>, <span class="pl-smi">f</span>, <span class="pl-v">quote</span> <span class="pl-k">=</span> <span class="pl-c1">FALSE</span>, <span class="pl-v">sep</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span><span class="pl-cce">\t</span><span class="pl-pds">"</span></span>, <span class="pl-v">row.names</span> <span class="pl-k">=</span> <span class="pl-c1">FALSE</span>)</pre></div>
 </article>
   </div>
 
@@ -681,7 +929,7 @@
       <svg aria-hidden="true" class="octicon octicon-mark-github" height="24" title="GitHub " version="1.1" viewBox="0 0 16 16" width="24"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59 0.4 0.07 0.55-0.17 0.55-0.38 0-0.19-0.01-0.82-0.01-1.49-2.01 0.37-2.53-0.49-2.69-0.94-0.09-0.23-0.48-0.94-0.82-1.13-0.28-0.15-0.68-0.52-0.01-0.53 0.63-0.01 1.08 0.58 1.23 0.82 0.72 1.21 1.87 0.87 2.33 0.66 0.07-0.52 0.28-0.87 0.51-1.07-1.78-0.2-3.64-0.89-3.64-3.95 0-0.87 0.31-1.59 0.82-2.15-0.08-0.2-0.36-1.02 0.08-2.12 0 0 0.67-0.21 2.2 0.82 0.64-0.18 1.32-0.27 2-0.27 0.68 0 1.36 0.09 2 0.27 1.53-1.04 2.2-0.82 2.2-0.82 0.44 1.1 0.16 1.92 0.08 2.12 0.51 0.56 0.82 1.27 0.82 2.15 0 3.07-1.87 3.75-3.65 3.95 0.29 0.25 0.54 0.73 0.54 1.48 0 1.07-0.01 1.93-0.01 2.2 0 0.21 0.15 0.46 0.55 0.38C13.71 14.53 16 11.53 16 8 16 3.58 12.42 0 8 0z"></path></svg>
 </a>
     <ul class="site-footer-links">
-      <li>&copy; 2016 <span title="0.13615s from github-fe122-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+      <li>&copy; 2016 <span title="0.11299s from github-fe151-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
         <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
         <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
         <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
